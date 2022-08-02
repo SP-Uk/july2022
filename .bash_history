@@ -263,3 +263,27 @@ sh linux_vm.sh
 su -linux_vm.sh
 su - linux_vm.sh
 su - linux_vm
+ll
+git --version
+yum install git 
+git --version
+ll
+ls -la
+git init .
+pwd
+ls -la
+git status
+ 
+ll
+git add .
+git status
+git commit -m "adding all files"
+git status
+git remote add origin https://github.com/SP-Uk/july2022.git
+git branch
+git push -u origin main
+git push -u origin master
+Password for 'https://SP-Uk@github.com':
+git push -u origin master
+ll
+yum install git
