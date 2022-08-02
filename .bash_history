@@ -287,3 +287,19 @@ Password for 'https://SP-Uk@github.com':
 git push -u origin master
 ll
 yum install git
+ll
+git --version
+yum install git
+ls -la
+git init .
+pwd
+ls -la
+git status
+git add .
+git status
+git commit -m "adding all files"
+git status
+git remote add origin https://github.com/Uday0308/july2022.git
+git branch
+git push -u origin master
+Password for 'https://Uday0308@github.com':
