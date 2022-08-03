@@ -1,5 +1,24 @@
 #! /bin/bash/
 
-echo $1 $2 $3
+echo enter the filename
+
+read file
+
+if [ -w $file ]
+then
+	echo $file is have write permission
+else
+	echo $file is no write permission
+fi
+
+
+if [ -s $file ]
+then
+        echo $file is have write permission
+else
+        echo $file is no write permission
+fi
+
+
 
 
